@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">UD04_CICLO_DE_VIDA</string>
+    <string name="action_settings">Settings</string>
+    <string name="instrucciones">Ciclo de vida:\n\n
+ 1. Al iniciar la actividad se lanzan los métodos: onCreate, onStart y
+ onResume.\n\n
+ 2. Si haces click en el botón Atrás se lanzan los métodos
+ : onPause, onStop y onDestroy.\n\n
+ 3. Cuando se pulsa Finalizar los métodos: onPause, onStop y
+ onDestroy.\n\n
+ 4. Al hacer click Home se lanzan los métodos: onPause y onStop.\n\n
+ 5. Si volvemos a lanzar la actividad en espera se lanzan los métodos:
+ onRestart, onStart y onResume)\n\n
+ 6.- Si giras la pantalla el valor del EditText Texto se conservará
+ si este tiene asignado un ID o se guarda su estado.
+ </string>
+</resources>
